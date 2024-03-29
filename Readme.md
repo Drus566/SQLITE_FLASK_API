@@ -2,11 +2,11 @@
 api.py - программа для управления "задачами" с помощью БД sqlite3 и http сервера Flask.
 
 ## Маршруты 
-* /api/get_task/<id>	[GET] Получить таску
-* /api/get_tasks	[GET] Получить список тасков
-* /api/task		[POST] Создать таску (<name> <description> <status>)
-* /api/task<id>		[PUT] Редактировать таску (<name> <description> <status>)
-* /api/task<id>		[DELETE] Удалить таску
+* `/api/get_task/<id>`	[GET] Получить таску
+* `/api/get_tasks`	[GET] Получить список тасков
+* `/api/task`		[POST] Создать таску `<name> <description> <status>`
+* `/api/task<id>`	[PUT] Редактировать таску `<name> <description> <status>`
+* `/api/task<id>`	[DELETE] Удалить таску
 
 ## Обновления
 * Добавил api сервер на свой vps http://90.156.230.242:5000/. Для работы с ним через утилиту `curl` добавил баш скрипты в папку `curl_remote` проекта.
