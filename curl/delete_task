@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#curl -X PUT -H "Content-Type: application/json" -d '{"key": "new_value"}' https://api.example.com/data/123
+# DELETE request
+curl -X DELETE -H "Content-Type: application/json" http://127.0.0.1:5000/api/task/$1
+# curl -X DELETE http://127.0.0.1:5000/api/task/$1
+
