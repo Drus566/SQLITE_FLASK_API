@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# GET request
+#curl http://127.0.0.1:5000/api/tasks 
+
+# PUT request
+curl -X PUT -H "Content-Type: application/json" -d "{\"name\": \"$2\", \"description\": \"$3\", \"status\": \"$4\"}" http://90.156.230.242:5000/api/task/$1
+
+# PUT request
+# curl -X PUT -H "Content-Type: application/json" -d '{"key": "new_value"}' https://api.example.com/data/123
+
+# DELETE request
+#curl -X DELETE https://api.example.com/data/123
+
